@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik';
+}
+
+.main img {
+  width: 1920px;
+  height: 1080px;
+}
+
+.backdrop {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  top: 0px;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.backdrop .card {
+  position: absolute;
+  width: 650px;
+  height: 754px;
+  background: #ffffff;
+  box-shadow: 0px 16px 60px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.backdrop .card .card-title {
+  height: 31px;
+  margin: 42px 264px 0px 263px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 31px;
+  color: #262626;
+}
+.backdrop .card .close-div {
+  position: absolute;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  left: 590px;
+  top: 47px;
+}
+.backdrop .card .close-div .close {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  left: 3px;
+  top: 3px;
+}
+.backdrop .card .icon-container {
+  display: flex;
+  gap: 19px;
+  margin: 50px 40px 0px 40px;
+}
+.backdrop .card .icon-container .icon-group {
+  width: 128px;
+  height: 150px;
+  border-radius: 12px;
+  cursor: pointer;
+  color: #262626;
+}
+.backdrop .card .icon-container .icon-group:hover {
+  box-shadow: 0px 6px 34px rgba(0, 0, 0, 0.12);
+  color: #00b2bd;
+}
+.backdrop .card .icon-container .icon-group .icon {
+  width: 80px;
+  height: 80px;
+  margin: 19px 24px 0px;
+}
+.backdrop .card .icon-container .icon-group .icon-title {
+  width: 90px;
+  height: 19px;
+  margin: 15px 19px 18px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+.backdrop .card .main-title {
+  height: 43px;
+  margin: 40px 40px 0px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  color: #262626;
+}
+.backdrop .card .watch-btn {
+  display: flex;
+  align-items: center;
+  width: 308px;
+  height: 50px;
+  margin: 30px 171px 0px;
+  cursor: pointer;
+  background: #ffffff;
+  border: 1.5px solid #00b2bd;
+  border-radius: 12px;
+}
+.backdrop .card .watch-btn .youtube-icon {
+  width: 24px;
+  height: 24px;
+  margin: 13px 0px 13px 14px;
+}
+.backdrop .card .watch-btn .watch-btn-text {
+  width: 198px;
+  height: 19px;
+  margin: 16px 0px 15px 15px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #00b2bd;
+}
+.backdrop .card .watch-btn .arrow-icon {
+  width: 16px;
+  height: 16px;
+  margin: 17px 17px 14px 28px;
+}
+.backdrop .card .watch-btn:hover {
+  box-shadow: 0px 6px 34px rgba(0, 0, 0, 0.12);
+}
+.backdrop .card .card-bottom {
+  height: 268px;
+  margin-top: 50px;
+  padding: 35px 40px 41px;
+  border-radius: 0px 0px 20px 20px;
+  list-style-type: none;
+  background: #eeeeee;
+}
+.backdrop .card .card-bottom li:not(:last-child) {
+  margin-bottom: 20px;
+}
+.backdrop .card .card-bottom .bottom-item-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.backdrop .card .card-bottom .bottom-item-top h5 {
+  width: 530px;
+  height: 22px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #262626;
+}
+.backdrop .card .card-bottom .bottom-item-top img {
+  width: 16px;
+  height: 16px;
+}
+.backdrop .card .card-bottom .details {
+  margin-top: 20px;
+  height: 66px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #898989;
+} /*# sourceMappingURL=main.css.map */
