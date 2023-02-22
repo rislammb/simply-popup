@@ -47,13 +47,6 @@ body {
   left: 590px;
   top: 47px;
 }
-.backdrop .card .close-div .close {
-  position: absolute;
-  width: 14px;
-  height: 14px;
-  left: 3px;
-  top: 3px;
-}
 .backdrop .card .icon-container {
   display: flex;
   gap: 19px;
