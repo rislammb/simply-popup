@@ -9,14 +9,13 @@ body {
 }
 
 .main img {
-  width: 1920px;
-  height: 1080px;
+  max-width: 100%;
 }
 
 .backdrop {
-  position: absolute;
-  width: 1920px;
-  height: 1080px;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
   top: 0px;
   left: 0px;
   background: rgba(0, 0, 0, 0.5);
@@ -25,9 +24,9 @@ body {
   align-items: center;
 }
 .backdrop .card {
-  position: absolute;
+  /* position: absolute;
+  height: 754px; */
   width: 650px;
-  height: 754px;
   background: #ffffff;
   box-shadow: 0px 16px 60px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
@@ -134,7 +133,6 @@ body {
   box-shadow: 0px 6px 34px rgba(0, 0, 0, 0.12);
 }
 .backdrop .card .card-bottom {
-  height: 268px;
   margin-top: 50px;
   padding: 35px 40px 41px;
   border-radius: 0px 0px 20px 20px;
@@ -163,12 +161,18 @@ body {
   width: 16px;
   height: 16px;
 }
-.backdrop .card .card-bottom .details {
+.backdrop .card .card-bottom .bottom-item.open .bottom-item-top img {
+  transform: rotate(180deg);
+}
+.backdrop .card .card-bottom .bottom-item .details {
   margin-top: 20px;
-  height: 66px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
   color: #898989;
+  display: none;
+}
+.backdrop .card .card-bottom .bottom-item.open .details {
+  display: block;
 }
