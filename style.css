@@ -24,8 +24,6 @@ body {
   align-items: center;
 }
 .backdrop .card {
-  /* position: absolute;
-  height: 754px; */
   width: 650px;
   background: #ffffff;
   box-shadow: 0px 16px 60px rgba(0, 0, 0, 0.1);
