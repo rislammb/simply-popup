@@ -152,6 +152,7 @@ body {
 .backdrop .card .card-bottom .bottom-item-top img {
   width: 16px;
   height: 16px;
+  transition: all 0.13s ease-in-out;
 }
 .backdrop .card .card-bottom .bottom-item.open .bottom-item-top img {
   transform: rotate(180deg);
