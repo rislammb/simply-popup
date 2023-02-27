@@ -25,7 +25,6 @@ body {
 }
 .backdrop .card {
   width: 650px;
-  max-width: 100%;
   background: #ffffff;
   box-shadow: 0px 16px 60px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
@@ -143,7 +142,6 @@ body {
 }
 .backdrop .card .card-bottom .bottom-item-top h5 {
   width: 530px;
-  max-width: 100%;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
